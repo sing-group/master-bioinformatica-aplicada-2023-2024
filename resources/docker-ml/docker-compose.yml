@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  jupyter-machine-learning:
+    image: singgroup/jupyter-machine-learning:2023-2024
+    build:
+      context: ./
+      dockerfile: Dockerfile
